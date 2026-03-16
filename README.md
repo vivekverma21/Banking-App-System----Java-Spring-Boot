@@ -1,6 +1,6 @@
-Spring MVC Project
+**Spring MVC Project**
 
-Technologies Used
+**Technologies Used**
 
 Java
 
@@ -12,7 +12,7 @@ MySQL
 
 JSP
 
-Features
+**Features**
 
 Create a new bank account
 

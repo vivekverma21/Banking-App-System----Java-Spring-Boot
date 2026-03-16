@@ -1,0 +1,21 @@
+
+<html xmlns:th="http://www.thymeleaf.org">
+  <div th:insert="~{@{reusable-code/header}}"></div>
+<body class="bg-light text-center">
+  <div class='bg-image'>
+   <div class="container py-5">
+        <div class="card mx-auto shadow" style="max-width:40%;">
+            <div class="card-body py-3">
+             <form action="deposit.do"> 
+            	<p class='fs-3 py-0 text-primary'>Deposit Form</p>
+            	<p><input type="number" class="form-control text-center" name="amount" placeholder="Enter Amount"></p>
+                <button class='btn btn-primary'>Submit</button>
+                <button type="button" class='btn btn-secondary' onclick="history.back()">Back Home</button>
+             </form>
+            </div>
+        </div>
+    </div>
+   </div> 
+    <div th:insert="~{reusable-code/footer}"></div>
+</body>
+</html>

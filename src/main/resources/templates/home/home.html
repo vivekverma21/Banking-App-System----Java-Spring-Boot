@@ -1,0 +1,26 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+	<div th:insert="~{reusable-code/header}"></div>
+    <div class="nav">
+        <a href="/janta-bank">Home</a>
+        <a href="#">About Us</a>
+        <div class="dropdown">
+            <button class="bt dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Account Services
+            </button>
+            <ul class="ddm dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="viewBalance">Show Balance</a></li>
+              <li><a class="dropdown-item" href="depositMoney">Deposit Money</a></li>
+              <li><a class="dropdown-item" href="withdrawMoney">Withdraw Money</a></li>
+              <li><a class="dropdown-item" href="transferMoney">Transfer Money</a></li>
+              <li><a class="dropdown-item" href="viewStatements">View Statements</a></li>
+            </ul>
+          </div>
+        <a href="#">Contact</a>
+    </div>
+    <div class="hero bg-image">
+        <h2>Your Trusted Financial Partner</h2>
+    </div>
+    <div th:insert="~{reusable-code/footer}"></div>
+</body>
+</html>
